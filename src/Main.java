@@ -11,10 +11,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		
 		Scanner sc = new Scanner(System.in);
 		
 		
 		//sc.nextLine();
+		//int x  = sc.nextInt();
 		//int x  = sc.nextInt();
 		
 		
