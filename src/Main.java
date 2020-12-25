@@ -1,6 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 import entities.Employee;
+import entities.Aluno;
 
 public class Main {
 
@@ -14,8 +15,7 @@ public class Main {
 		System.out.println(rectangle);
 		 */
 		
-		Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner(System.in);
+		/*
 		
 		Employee employee = new Employee();
 		System.out.print("Name: ");
@@ -34,8 +34,19 @@ public class Main {
 		employee.increaseSalary(percentage);
 			
 		System.out.println("Updated data: " + employee);
+		 */
 		
-	
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		Aluno aluno = new Aluno();
+		aluno.name = sc.nextLine();
+		aluno.nota1 = sc.nextDouble();
+		aluno.nota2 = sc.nextDouble();
+		aluno.nota3 = sc.nextDouble();
+		
+		System.out.println(aluno);
 		sc.close();
 	}
 	
